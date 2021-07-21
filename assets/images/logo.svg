@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="361.67599"
+   height="104.28472"
+   viewBox="0 0 95.693438 27.592"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo_TCT_Taiwan-Crypto-Shirts.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="1440px"
+     inkscape:zoom="0.32516134"
+     inkscape:cx="-78.422607"
+     inkscape:cy="284.47416"
+     inkscape:window-width="1314"
+     inkscape:window-height="679"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient192211">
+      <stop
+         style="stop-color:#ff6600;stop-opacity:1;"
+         offset="0"
+         id="stop192207" />
+      <stop
+         style="stop-color:#ffaa00;stop-opacity:1"
+         offset="1"
+         id="stop192209" />
+    </linearGradient>
+    <rect
+       x="768.42865"
+       y="222.97826"
+       width="0.32435822"
+       height="131.20889"
+       id="rect52373" />
+    <rect
+       x="127.50882"
+       y="146.80212"
+       width="817.37067"
+       height="222.29349"
+       id="rect86709" />
+    <rect
+       x="3.2526715"
+       y="1.1267416"
+       width="222.48859"
+       height="0"
+       id="rect31396" />
+    <rect
+       x="-1351.7568"
+       y="462.04227"
+       width="564.98395"
+       height="236.57727"
+       id="rect1947" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient192211"
+       id="linearGradient192213"
+       x1="127.50977"
+       y1="191.30405"
+       x2="336.74942"
+       y2="191.30405"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-126.07268,-14.162625)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1945"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1947);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-1351.7578"
+         y="497.43359"
+         id="tspan192915">#131921
+</tspan><tspan
+         x="-1351.7578"
+         y="547.43359"
+         id="tspan192917">
+</tspan><tspan
+         x="-1351.7578"
+         y="597.43359"
+         id="tspan192919">#232f3e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="225.1911"
+       y="171.31216"
+       id="text47749"><tspan
+         sodipodi:role="line"
+         id="tspan47747"
+         style="stroke-width:0.264583"
+         x="225.1911"
+         y="171.31216" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         id="tspan47751"
+         x="225.1911"
+         y="184.54129" /></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.45733893,0,0,0.45734637,67.757501,-59.533587)"
+       id="text86707"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:-4.82px;white-space:pre;shape-inside:url(#rect86709);fill:url(#linearGradient192213);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/yanik/Pictures/For_Projects/Taiwan_Crypto_Tshirts/logo/logo_TCT_Taiwan-Crypto-Shirts.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="127.50977"
+         y="221.46937"
+         id="tspan192923"><tspan
+           style="font-size:85.3333px;font-family:Coalition;-inkscape-font-specification:'Coalition, Normal'"
+           id="tspan192921">tct</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text52371"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect52373);fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
