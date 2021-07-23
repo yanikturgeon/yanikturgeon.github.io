@@ -10980,21 +10980,35 @@ textarea.form-control-lg {
   margin-bottom: 0.625rem;
 }
 .shop-good #big .owl-nav button.owl-next {
-  transform: translate(50%, 0);
-  opacity: 0;
-  right: 15px;
+  transform: translate(0, 0);
+  opacity: 1;
+  right: -10px;
+}
+@media (min-width: 768px) {
+  .shop-good #big .owl-nav button.owl-next {
+    transform: translate(50%, 0);
+    opacity: 0;
+    right: 15px;
+  }
 }
 .shop-good #big .owl-nav button.owl-prev {
-  transform: translate(-50%, 0);
-  opacity: 0;
-  left: 15px;
+  transform: translate(0, 0);
+  opacity: 1;
+  left: -10px;
+}
+@media (min-width: 768px) {
+  .shop-good #big .owl-nav button.owl-prev {
+    transform: translate(-50%, 0);
+    opacity: 0;
+    left: 15px;
+  }
 }
 .shop-good #big .owl-nav button.owl-prev,
 .shop-good #big .owl-nav button.owl-next {
   transition: all 0.2s;
   transition-delay: 0s;
   position: absolute;
-  top: 50%;
+  top: 95%;
   display: block;
   width: 3.75rem;
   height: 3.75rem;
@@ -11004,6 +11018,14 @@ textarea.form-control-lg {
   z-index: 20;
   font-size: 3rem;
   background-color: transparent;
+  color: #FF9900;
+}
+@media (min-width: 768px) {
+  .shop-good #big .owl-nav button.owl-prev,
+.shop-good #big .owl-nav button.owl-next {
+    color: inherit;
+    top: 50%;
+  }
 }
 .shop-good #big:hover .owl-nav button.owl-prev,
 .shop-good #big:hover .owl-nav button.owl-next {
@@ -11020,6 +11042,12 @@ textarea.form-control-lg {
 .shop-good #big .owl-nav button.owl-prev[class*=disabled],
 .shop-good #big .owl-nav button.owl-next[class*=disabled] {
   opacity: 0;
+}
+
+#related-products .owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent;
+  color: #FF9900;
+  border: 1px solid #FF9900;
 }
 
 .hero-card-content {
@@ -11359,7 +11387,12 @@ footer .footer-coin-list {
 }
 
 section {
-  padding: 0.8rem 0 6.25rem 0;
+  padding: 0.8rem 0 1rem 0;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 0.8rem 0 6.25rem 0;
+  }
 }
 
 #related-products {
@@ -11377,12 +11410,12 @@ section {
   position: relative;
   float: left;
   padding: 0;
-  width: calc(1.5em + 1.875rem + 2px);
-  height: calc(1.5em + 1.875rem + 2px);
+  width: calc(1.1em + 1.15rem + 2px);
+  height: calc(1.1em + 1.15rem + 2px);
   margin-top: -1px;
   margin-left: -1px;
   font-size: 0.875rem;
-  line-height: calc(1.5em + 1.875rem);
+  line-height: calc(1.1em + 1.15rem);
   border: 1px solid #dddddd;
   z-index: 5;
   border-radius: 0;
@@ -11396,8 +11429,8 @@ section {
   top: 50%;
   left: 50%;
   display: block;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background: currentColor;
   border-radius: 50%;
   border: 1px solid #ccc;
