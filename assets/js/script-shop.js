@@ -88,7 +88,8 @@ $(document).ready(function() {
         autoplay: false,
         margin: 10,
         nav: true,
-        dotsEach: 4,
+        // dotsEach: 1,
+        dots: false,
         center: true,
         responsive: {
             0: {
