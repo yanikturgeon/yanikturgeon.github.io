@@ -11,16 +11,22 @@ $(document).ready(function() {
             0: {
                 items: 1,
                 nav: true,
-                dots: false
+                dots: false,
+                margin: 10,
+                stagePadding: 10
             },
-            576: {
+            568: {
                 items: 2,
                 nav: true,
-                dots: false
+                dots: false,
+                margin: 15,
+                stagePadding: 20
             },
             768: {
                 items: 2,
                 nav: true,
+                margin: 20,
+                stagePadding: 20
             },
             992: {
                 items: 3,
@@ -68,17 +74,17 @@ $(document).ready(function() {
     });
     size_li = $("#ourCollections div.col").length;
     // alert($("#ourCollections div.col").length);
-    x = 8;
-    $('#ourCollections div.col:lt(4)').show();
-    $('#loadMore').click(function() {
-        x = (x + 4 <= size_li) ? x + 4 : size_li;
+    x = 0;
+    // $('#ourCollections div.col:lt(4)').show();
+    $('#loadMore').on("click", function() {
+        x = (x + 4 !== size_li) ? x + 4 : size_li;
         $('#ourCollections div.col:lt(' + x + ')').show();
         $('#showLess').show();
         if (x == size_li) {
             $('#loadMore').hide();
         }
     });
-    $('#showLess').click(function() {
+    $('#showLess').on("click", function() {
         x = (x - 4 < 0) ? 4 : x - 4;
         $('#ourCollections div.col').not(':lt(' + x + ')').hide();
         $('#loadMore').show();
