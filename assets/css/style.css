@@ -11065,16 +11065,23 @@ textarea.form-control-lg {
   padding: 1rem;
   z-index: 2;
 }
-.hero-card-content .card-title,
-.hero-card-content .item-price {
-  display: inline-block;
+.hero-card-content .item-sex, .hero-card-content .item-price {
+  margin-bottom: 0.5rem;
+  color: #232F3E;
 }
 .hero-card-content .item-price {
-  margin-left: 0.5rem;
-  font-size: 0.8rem;
+  text-align: right;
+  float: right;
+  font-weight: 600;
+  color: #232F3E;
 }
 .hero-card-content button {
   display: block;
+}
+.hero-card-content .card-title {
+  margin-bottom: 0.33rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .owl-carousel figure {
