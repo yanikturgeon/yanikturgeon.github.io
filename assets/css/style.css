@@ -10888,6 +10888,10 @@ textarea.form-control-lg {
   }
 }
 
+.visible .owl-stage-outer {
+  overflow: visible;
+}
+
 .owl-coins.owl-carousel .owl-nav,
 .owl-coins.owl-carousel .owl-dots,
 #testimonials .owl-carousel .owl-nav {
@@ -11226,12 +11230,6 @@ nav a img {
   right: 0;
   border: 0;
   background: none;
-}
-#intro a.card span.image1 {
-  background-image: url(/assets/images/bitcoint-t-shirt-girl-1.jpg);
-}
-#intro a.card span.image2 {
-  background-image: url(/assets/images/bitcoint-t-shirt-boy-1.jpg);
 }
 #intro a.card .image {
   position: absolute;

@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.owl-hero').owlCarousel({
         loop: true,
         autoplay: false,
-        margin: 10,
+        margin: 30,
         nav: true,
         dotsEach: 4,
         center: true,
@@ -14,20 +14,20 @@ $(document).ready(function() {
                 dots: false
             },
             576: {
-                items: 3,
+                items: 2,
                 nav: true,
                 dots: false
             },
             768: {
-                items: 3,
+                items: 2,
                 nav: true,
             },
             992: {
-                items: 5,
+                items: 3,
                 nav: true,
             },
             1200: {
-                items: 5,
+                items: 3,
                 nav: true
             }
         }

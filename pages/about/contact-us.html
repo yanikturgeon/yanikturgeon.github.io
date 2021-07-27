@@ -8,7 +8,9 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700&family=Noto+Serif+TC:wght@200;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700&family=Noto+Serif+TC:wght@200;500;700&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/vendors/owlcarousel/assets/owl.carousel.min.css">
@@ -31,14 +33,14 @@
         chatbox.setAttribute("page_id", "102291132068266");
         chatbox.setAttribute("attribution", "page_inbox");
 
-        window.fbAsyncInit = function() {
+        window.fbAsyncInit = function () {
             FB.init({
                 xfbml: true,
                 version: 'v11.0'
             });
         };
 
-        (function(d, s, id) {
+        (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s);
@@ -51,68 +53,89 @@
         <!-- Start Sub-Header -->
         <div class="container-fluid bg-dark top-row">
             <div class="row text-white py-0">
-                <div class="col pt-1">Shipping and Payment @7-11</div>
+                <div class="col pt-1">7-11 取貨&付款</div>
                 <div class="col-auto">
-                    <a href="https://www.facebook.com/TaiwanCryptoTshirts" class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-facebook"></i></a>
-                    <a href="https://m.me/TaiwanCryptoTshirts" class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-messenger"></i></a>
+                    <a href="https://www.facebook.com/TaiwanCryptoTshirts" title="瀏覽我們的 Facebook "
+                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://m.me/TaiwanCryptoTshirts" title="在 Messenger 上給我們發送訊息"
+                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i
+                            class="bi bi-messenger"></i></a>
                 </div>
             </div>
         </div>
         <!-- Start Navbar -->
         <nav id="tct-main-navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fs-5">
             <div class="container-fluid">
-                <a class="navbar-brand order-lg-1" href="/index.html"><img src="/assets/images/logo.png" alt="Logo Taiwan-Crypto-Tshirts" title="Logo Taiwan-Crypto-Tshirts"><span class="visually-hidden">Logo Taiwan-Crypto-Tshirts</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand order-lg-1" href="/index.html"><img src="/assets/images/logo.png"
+                        alt="商標 Taiwan-Crypto-Tshirts" title="商標 Taiwan-Crypto-Tshirts"><span
+                        class="visually-hidden">Logo Taiwan-Crypto-Tshirts</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse order-lg-2" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown has-megamenu">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Collections
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                產品
                             </a>
                             <!-- Start dropdown-mega-menu -->
                             <div class="dropdown-menu megamenu p-0 p-lg-3 bg-primary" role="menu">
                                 <div class="container-fluid bg-primary">
                                     <div class="row">
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="/assets/images/crypto-logos/bitcoin-btc-logo.png" alt="Bitcoin - BTC - Logo">
-                                            <a href="/pages/collections/btc/btc-collection.html" title="Browse our shirt collection - Bitcoin BTC" class="link-warning px-3">Bitcoin - BTC</a>
+                                            <img src="/assets/images/crypto-logos/bitcoin-btc-logo.svg"
+                                                alt="Bitcoin - BTC - 商標">
+                                            <a href="/pages/collections/btc/btc-collection.html"
+                                                title="探索我們的商品 - Bitcoin BTC" class="link-warning px-3">Bitcoin -
+                                                BTC</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="/assets/images/crypto-logos/ethereum-eth-logo.png" alt="Ethereum - ETH - Logo">
-                                            <a href="/pages/collections/eth/eth-collection.html" title="Browse our shirt collection - Ethereum ETH" class="link-warning px-3">Ethereum - ETH</a>
+                                            <img src="/assets/images/crypto-logos/ethereum-eth-logo.svg"
+                                                alt="Ethereum - ETH - 商標">
+                                            <a href="/pages/collections/eth/eth-collection.html"
+                                                title="探索我們的商品 - Ethereum ETH" class="link-warning px-3">Ethereum -
+                                                ETH</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="/assets/images/crypto-logos/xrp-xrp-logo.png" alt="Ripple - XRP - Logo">
-                                            <a href="/pages/collections/xrp/xrp-collection.html" title="Browse our shirt collection - Ripple XRP" class="link-warning px-3">Ripple - XRP</a>
+                                            <img src="/assets/images/crypto-logos/xrp-xrp-logo.svg"
+                                                alt="Ripple - XRP - 商標">
+                                            <a href="/pages/collections/xrp/xrp-collection.html"
+                                                title="探索我們的商品 - Ripple XRP" class="link-warning px-3">Ripple - XRP</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="/assets/images/crypto-logos/dogecoin-doge-logo.png" alt="Dogecoin - DOGE - Logo">
-                                            <a href="/pages/collections/doge/doge-collection.html" title="Browse our shirt collection - Dogecoin DOGE" class="link-warning px-3">Dogecoin - DOGE</a>
+                                            <img src="/assets/images/crypto-logos/cardano-ada-logo.svg"
+                                                alt="Cordano - ADA - 商標">
+                                            <a href="/pages/collections/ada/ada-collection.html"
+                                                title="探索我們的商品 - Cordano ADA" class="link-warning px-3">Dogecoin -
+                                                DOGE</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/collections/new-arrivals/new-arrival-collection.html">New Arrival</a>
+                            <a class="nav-link"
+                                href="/pages/collections/new-arrivals/new-arrival-collection.html">新品上市</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                About
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                關於
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/pages/about/about.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="/pages/about/faq.html">FAQ</a></li>
-                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="/pages/about/about.html">關於我們</a></li>
+                                <li><a class="dropdown-item" href="/pages/about/faq.html">常問問題</a></li>
+                                <li><a class="dropdown-item" href="#">聯繫我們</a></li>
                             </ul>
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="搜尋" aria-label="Search">
                         <button class="btn btn-outline-warning" type="submit"><i class="bi bi-search"></i><span
-                                class="visually-hidden">Search</span></button>
+                                class="visually-hidden">搜尋</span></button>
                     </form>
                 </div>
             </div>
@@ -123,11 +146,11 @@
         <div class="container">
             <div class="row g-2 align-items-end">
                 <div class="col-md-8 text-white position-relative">
-                    <h1 class="mb-0">Contact Us</h1>
+                    <h1 class="mb-0">聯繫我們</h1>
                     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="/index.html" title="Home">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            <li class="breadcrumb-item active" aria-current="page">聯繫我們</li>
                         </ol>
                     </nav>
                 </div>
@@ -139,22 +162,24 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-md-6">
-                        <h1 class="fw-light"><b class="d-block">Get in touch</b>It's free.</h1>
+                        <h1 class="fw-light"><b class="d-block">保持聯繫</b>免費。</h1>
                     </div>
                 </div>
                 <div class="row g-4">
-                    <div class="col-md-5 col-lg-4">
-                        <span class="sm-upper pb-3">Contact Us/Find Us</span>
+                    <div class="col-md-4">
+                        <span class="sm-upper pb-3">聯繫我們/找到我們</span>
                         <p class="lead my-1 text-dark">
-                            Fanlu, Chiayi <br>Taiwan, 602
+                            <a href="https://goo.gl/maps/jfZAsfz6nbPeJ2uE9" target="_blank" title="在谷歌地圖上查看">嘉義, 台灣<br>
+                                602</a>
                         </p>
                     </div>
-                    <div class="col-md-5 col-lg-4">
-                        <span class="sm-upper pb-3">Contact Us/Find Us</span>
+                    <div class="col-md-8  ps-lg-5">
+                        <span class="sm-upper pb-3"></span>
                         <p class="lead my-1 text-dark">
                             0907819131 <br> 0908613887
                         </p>
-                        <a href="mailto:contact@taiwan-crypto-tshirts.com" class="sm-upper action">contact@taiwan-crypto-tshirts.com</a>
+                        <a href="mailto:contact@taiwan-crypto-tshirts.com"
+                            class="sm-upper action">contact@taiwan-crypto-tshirts.com</a>
                     </div>
                 </div>
             </div>
@@ -162,33 +187,33 @@
         <section id="contact-form" class="contact-form">
             <div class="container">
                 <div class="row g-4">
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <h2 class="fw-light h1">
-                            <b>Get in touch </b> with us by filling our contact form.
+                            <b>透過表格與我們</b>聯繫。
 
                         </h2>
-                        <p>We don't spam. Promise!</p>
+                        <p>我們承諾絕不發送垃圾郵件!</p>
                     </div>
-                    <div class="col-lg-8 ps-lg-5">
+                    <div class="col-md-8 ps-lg-5">
                         <div class="row g-4">
                             <div class="col-md-6 form-group">
-                                <label for="inputName"> Name</label>
-                                <input type="text" class="form-control" id="inputName" placeholder="">
+                                <label for="inputName"> 姓名</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="姓名">
                             </div>
                             <div class="col-md-6 form-group">
-                                <label for="inputEmail">Email</label>
-                                <input type="text" class="form-control" id="inputEmail" placeholder="">
+                                <label for="inputEmail">電子郵件</label>
+                                <input type="text" class="form-control" id="inputEmail" placeholder="姓名@電子郵件.com">
                             </div>
                             <div class="col-12">
-                                <label for="inputSubject">Subject</label>
+                                <label for="inputSubject">主旨</label>
                                 <input type="text" class="form-control" id="inputSubject" placeholder="">
                             </div>
                             <div class="col-12">
-                                <label for="inputTextarea">Message</label>
+                                <label for="inputTextarea">訊息</label>
                                 <textarea class="form-control" id="inputTextarea" rows="3"></textarea>
                             </div>
                             <div class="col-12">
-                                <button role="button" class="btn btn-outline-warning btn-lg">Send</button>
+                                <button role="button" class="btn btn-outline-warning btn-lg">發送</button>
                             </div>
                         </div>
                     </div>
@@ -200,29 +225,31 @@
         <div class="container py-4">
             <div class="row pb-3">
                 <div class="col-12 col-md-6 mx-auto pb-4">
-                    <h5 class="text-capitalize fw-bold">Taiwan Crypto T-shirts</h5>
+                    <h5 class="text-capitalize fw-bold">Taiwan Crypto t-Shirts</h5>
                     <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officia veniam dicta aliquid aut nemo ut soluta?</p>
-                    <a href="/pages/about/about.html" class="btn btn-outline-warning">Learn More</a>
+                    <p class="lh-lg">Taiwan Crypto t-Shirt 是一個極客和一個藝術家的故事。 我們遇到了教小孩子英語。 Covid關閉了學校。 我們決定在線提供很酷的原創加密 T 卹。
+                        我們希望你找到你喜歡的那個 :)</p>
+                    <a href="/pages/about/about.html" class="btn btn-outline-warning">了解更多</a>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-capitalize fw-bold">Collections</h5>
+                    <h5 class="text-capitalize fw-bold">加密貨幣 T 卹系列</h5>
                     <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
                     <ul class="list-inline company-list footer-coin-list pb-3">
-                        <li><a class="link-warning" href="/pages/collections/btc/btc-collection.html">BTC - Collection</a></li>
-                        <li><a class="link-warning" href="/pages/collections/eth/eth-collection.html">ETH - Collection</a></li>
-                        <li><a class="link-warning" href="/pages/collections/xrp/xrp-collection.html">XRP - Collection</a></li>
-                        <li><a class="link-warning" href="/pages/collections/doge/doge-collection.html">DOGE - Collection</a></li>
+                        <li><a class="link-warning" href="/pages/collections/btc/btc-collection.html">BTC - 產品</a></li>
+                        <li><a class="link-warning" href="/pages/collections/eth/eth-collection.html">ETH - 產品</a></li>
+                        <li><a class="link-warning" href="/pages/collections/xrp/xrp-collection.html">XRP - 產品</a></li>
+                        <li><a class="link-warning" href="/pages/collections/ada/ada-collection.html">ADA - 產品</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-2">
-                    <h5 class="text-capitalize fw-bold">Links</h5>
+                    <h5 class="text-capitalize fw-bold">連結</h5>
                     <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
                     <ul class="list-inline company-list">
-                        <li><a class="link-warning" href="/pages/collections/new-arrivals/new-arrival-collection.html">New Arrivale</a></li>
-                        <li><a class="link-warning" href="/pages/about/about.html">About</a></li>
-                        <li><a class="link-warning" href="/pages/about/faq.html">FAQ</a></li>
-                        <li><a class="link-warning" href="#">Contact</a></li>
+                        <li><a class="link-warning"
+                                href="/pages/collections/new-arrivals/new-arrival-collection.html">新品上市</a></li>
+                        <li><a class="link-warning" href="/pages/about/about.html">關於我們</a></li>
+                        <li><a class="link-warning" href="/pages/about/faq.html">常問問題</a></li>
+                        <li><a class="link-warning" href="#">聯繫我們</a></li>
                     </ul>
                 </div>
             </div>
@@ -231,8 +258,11 @@
             <div class="container">
                 <div class="row text-center text-white">
                     <div class="col-12">
-                        <div class="footer-bottom__copyright">
-                            <a href="/pages/legal/terms.html" class="link-warning small">隱私權政策</a> | <a href="/pages/legal/policies.html" class="link-warning small">使用條款</a> | All Rights Reserved &copy; Copyright 2021 | Some Images from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868496">Pixabay</a>
+                        <div class="footer-bottom__copyright d-block d-md-inline">All Rights Reserved &copy; 2021</div>
+                        <div class="d-block d-md-inline">
+                            <a href="/pages/legal/terms.html" class="link-warning small">隱私權政策</a> | 
+                            <a href="/pages/legal/policies.html"
+                                class="link-warning small">使用條款</a>
                         </div>
                     </div>
                 </div>
@@ -242,7 +272,9 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
