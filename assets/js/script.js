@@ -74,17 +74,17 @@ $(document).ready(function() {
     });
     size_li = $("#ourCollections div.col").length;
     // alert($("#ourCollections div.col").length);
-    x = 0;
-    // $('#ourCollections div.col:lt(4)').show();
-    $('#loadMore').on("click", function() {
-        x = (x + 4 !== size_li) ? x + 4 : size_li;
+    x = 8;
+    $('#ourCollections div.col:lt(4)').show();
+    $('#loadMore').click(function() {
+        x = (x + 4 <= size_li) ? x + 4 : size_li;
         $('#ourCollections div.col:lt(' + x + ')').show();
         $('#showLess').show();
         if (x == size_li) {
             $('#loadMore').hide();
         }
     });
-    $('#showLess').on("click", function() {
+    $('#showLess').click(function() {
         x = (x - 4 < 0) ? 4 : x - 4;
         $('#ourCollections div.col').not(':lt(' + x + ')').hide();
         $('#loadMore').show();
