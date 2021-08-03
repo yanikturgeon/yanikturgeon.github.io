@@ -11410,6 +11410,14 @@ section {
 #related-products {
   padding-top: 0;
 }
+#related-products .card .card-title {
+  margin-bottom: 0;
+}
+#related-products .card small {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-bottom: 0.33rem;
+}
 
 .breadcrumb-item {
   font-size: 0.75rem;
