@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_TW">
 
 <head>
     <!-- Required meta tags -->
@@ -20,31 +20,32 @@
 </head>
 
 <body>
-    <!-- Messenger Chat Plugin Code -->
+   <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
+
     <!-- Your Chat Plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
+
     <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "102291132068266");
-        chatbox.setAttribute("attribution", "page_inbox");
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102291132068266");
+      chatbox.setAttribute("attribution", "biz_inbox");
 
-        window.fbAsyncInit = function() {
-            FB.init({
-                xfbml: true,
-                version: 'v11.0'
-            });
-        };
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
 
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     </script>
     <header>
         <!-- Start Sub-Header -->
@@ -52,7 +53,10 @@
             <div class="row text-white py-0">
                 <div class="col pt-1">7-11 取貨&付款</div>
                 <div class="col-auto">
-                    <a href="https://www.facebook.com/TaiwanCryptoTshirts" title="瀏覽我們的 Facebook " class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.facebook.com/TaiwanCryptoTshirts" title="瀏覽我們的 FB "
+                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/taiwan.crypto.tshirts/" title="瀏覽我們的 IG "
+                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-instagram"></i></a> 
                     <a href="https://m.me/TaiwanCryptoTshirts" title="在 Messenger 上給我們發送訊息" class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-messenger"></i></a>
                 </div>
             </div>
