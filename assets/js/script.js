@@ -77,7 +77,7 @@ $(document).ready(function() {
     x = 8;
     $('#ourCollections div.col:lt(4)').show();
     $('#loadMore').click(function() {
-        x = (x + 4 <= size_li) ? x + 4 : size_li;
+        x = (x + 3 <= size_li) ? x + 3 : size_li;
         $('#ourCollections div.col:lt(' + x + ')').show();
         $('#showLess').show();
         if (x == size_li) {
@@ -94,7 +94,7 @@ $(document).ready(function() {
         }
     });
     // Set the date we're counting down to
-    var countDownDate = new Date("August 5, 2021 23:59:59").getTime();
+    var countDownDate = new Date("December 24, 2021 23:59:59").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
