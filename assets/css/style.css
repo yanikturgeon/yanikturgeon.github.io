@@ -11147,6 +11147,10 @@ nav a img {
   padding: 1rem;
 }
 
+.navbar .megamenu .row {
+  background-color: #3b4b60 !important;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   .navbar .has-megamenu {
