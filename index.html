@@ -7,21 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow" />
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NH8P5VP');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NH8P5VP');
+    </script>
     <!-- End Google Tag Manager -->
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700&family=Noto+Serif+TC:wght@200;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700&family=Noto+Serif+TC:wght@200;500;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/vendors/owlcarousel/assets/owl.carousel.min.css">
@@ -50,37 +56,34 @@
         chatbox.setAttribute("page_id", "102291132068266");
         chatbox.setAttribute("attribution", "biz_inbox");
 
-        window.fbAsyncInit = function () {
+        window.fbAsyncInit = function() {
             FB.init({
                 xfbml: true,
                 version: 'v11.0'
             });
         };
 
-        (function (d, s, id) {
+        (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
+            js = d.createElement(s);
+            js.id = id;
             js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
-        nonce="53sr1nln"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="53sr1nln"></script>
     <header>
         <!-- Start Sub-Header -->
         <div class="container-fluid bg-dark top-row">
             <div class="row text-white py-0">
                 <div class="col pt-1">7-11 取貨&付款</div>
                 <div class="col-auto">
-                    <a href="https://www.facebook.com/TaiwanCryptoTshirts" title="瀏覽我們的 FB "
-                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/taiwan.crypto.tshirts/" title="瀏覽我們的 IG "
-                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i
+                    <a href="https://www.facebook.com/TaiwanCryptoTshirts" title="瀏覽我們的 FB " class="link-warning d-inline-block py-1 px-2" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/taiwan.crypto.tshirts/" title="瀏覽我們的 IG " class="link-warning d-inline-block py-1 px-2" target="_blank"><i
                             class="bi bi-instagram"></i></a>
-                    <a href="https://m.me/TaiwanCryptoTshirts" title="在 Messenger 上發送訊息"
-                        class="link-warning d-inline-block py-1 px-2" target="_blank"><i
+                    <a href="https://m.me/TaiwanCryptoTshirts" title="在 Messenger 上發送訊息" class="link-warning d-inline-block py-1 px-2" target="_blank"><i
                             class="bi bi-messenger"></i></a>
                 </div>
             </div>
@@ -88,19 +91,15 @@
         <!-- Start Navbar -->
         <nav id="tct-main-navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fs-5">
             <div class="container-fluid">
-                <a class="navbar-brand order-lg-1" href="#"><img src="./assets/images/logo.png"
-                        alt="商標 Taiwan-Crypto-Tshirts" title="商標 Taiwan-Crypto-Tshirts"><span class="visually-hidden">商標
+                <a class="navbar-brand order-lg-1" href="#"><img src="./assets/images/logo.png" alt="商標 Taiwan-Crypto-Tshirts" title="商標 Taiwan-Crypto-Tshirts"><span class="visually-hidden">商標
                         Taiwan-Crypto-Tshirts</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse order-lg-2" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown has-megamenu">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 產品
                             </a>
                             <!--Navebar Menu Collections -->
@@ -109,38 +108,27 @@
                                 <div class="container-fluid bg-primary">
                                     <div class="row">
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="./assets/images/crypto-logos/bitcoin-btc-logo.svg"
-                                                alt="Bitcoin - BTC - 商標">
-                                            <a href="/pages/collections/btc/btc-collection.html"
-                                                title="探索我們的商品 - Bitcoin BTC" class="link-warning px-3">Bitcoin -
+                                            <img src="./assets/images/crypto-logos/bitcoin-btc-logo.svg" alt="Bitcoin - BTC - 商標">
+                                            <a href="/pages/collections/btc/btc-collection.html" title="探索我們的商品 - Bitcoin BTC" class="link-warning px-3">Bitcoin -
                                                 BTC</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="./assets/images/crypto-logos/ethereum-eth-logo.svg"
-                                                alt="Ethereum - ETH - 商標">
-                                            <a href="/pages/collections/eth/eth-collection.html"
-                                                title="探索我們的商品 - Ethereum ETH" class="link-warning px-3">Ethereum -
+                                            <img src="./assets/images/crypto-logos/ethereum-eth-logo.svg" alt="Ethereum - ETH - 商標">
+                                            <a href="/pages/collections/eth/eth-collection.html" title="探索我們的商品 - Ethereum ETH" class="link-warning px-3">Ethereum -
                                                 ETH</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="./assets/images/crypto-logos/cardano-ada-logo.svg"
-                                                alt="Cordano - ADA - 商標">
-                                            <a href="/pages/collections/ada/ada-collection.html"
-                                                title="探索我們的商品 - Cordano - ADA" class="link-warning px-3">Cordano -
+                                            <img src="./assets/images/crypto-logos/cardano-ada-logo.svg" alt="Cordano - ADA - 商標">
+                                            <a href="/pages/collections/ada/ada-collection.html" title="探索我們的商品 - Cordano - ADA" class="link-warning px-3">Cordano -
                                                 ADA</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="./assets/images/crypto-logos/xrp-xrp-logo.svg"
-                                                alt="Ripple - XRP - 商標">
-                                            <a href="/pages/collections/xrp/xrp-collection.html"
-                                                title="探索我們的商品 - Ripple XRP" class="link-warning px-3">Ripple - XRP</a>
+                                            <img src="./assets/images/crypto-logos/xrp-xrp-logo.svg" alt="Ripple - XRP - 商標">
+                                            <a href="/pages/collections/xrp/xrp-collection.html" title="探索我們的商品 - Ripple XRP" class="link-warning px-3">Ripple - XRP</a>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 nav-collection py-3 py-md-1">
-                                            <img src="/assets/images/crypto-logos/dogecoin-doge-logo.svg"
-                                                alt="Dogecoin - DOGE - 商標">
-                                            <a href="/pages/collections/doge/doge-collection.html"
-                                                title="探索我們的商品 - Dogecoin DOGE"
-                                                class="link-warning px-3">Dogecoin - DOGE</a>
+                                            <img src="/assets/images/crypto-logos/dogecoin-doge-logo.svg" alt="Dogecoin - DOGE - 商標">
+                                            <a href="/pages/collections/doge/doge-collection.html" title="探索我們的商品 - Dogecoin DOGE" class="link-warning px-3">Dogecoin - DOGE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -150,8 +138,7 @@
                             <a class="nav-link" href="/pages/collections/new-arrivals/new-arrival-collection.html">新品上市</a>
                         </li> -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 關於
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
@@ -177,7 +164,8 @@
             <div class="row">
                 <div class="col-md-10 col-lg-8">
                     <h1 class="fw-light">探索我們的 <b class="d-block fw-bold">商品。</b>
-                    </h1> <!-- Hero Slogan -->
+                    </h1>
+                    <!-- Hero Slogan -->
                 </div>
             </div>
             <div class="row">
@@ -186,16 +174,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/btc/shirts/btc-logo-text.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/btc/btc-logo-full/m/m-black-btclogo-full-btc.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/btc/btc-logo-full/m/m-black-btclogo-full-btc.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">Full Logo - 黑色 Black - BTC</h5><span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">Full Logo - 黑色 Black - BTC</h5><span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/btc/shirts/btc-logo-text.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -206,16 +190,13 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/btc/shirts/btc-logo.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/btc/btc-logo/m/m-heather-purple-btclogo-btc.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/btc/btc-logo/m/m-heather-purple-btclogo-btc.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
                                         <h5 class="card-title text-dark d-block">Logo - 紫色 Heather Purple - BTC</h5>
-                                        <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/btc/shirts/btc-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -226,15 +207,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/btc/shirts/btc-evo.html">
-                                    <img class="card-img" src="/assets/images/shirts/btc/evo/m/black-m-evo-btc.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/btc/evo/m/black-m-evo-btc.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">Evo - 黑色 Black BTC</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">Evo - 黑色 Black BTC</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/btc/shirts/btc-evo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -245,15 +223,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/btc/shirts/btc-zebra.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/btc/stripped/m/m-white-stripped-btc.jpg" alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/btc/stripped/m/m-white-stripped-btc.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">Zebra - 白色 White - BTC</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">Zebra - 白色 White - BTC</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/btc/shirts/btc-zebra.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -264,16 +239,13 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/eth/shirts/eth-full-horizontale.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/eth/eth-full-horizontal/m/m-heater-irish-ethlogo-full-hori-eth.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/eth/eth-full-horizontal/m/m-heater-irish-ethlogo-full-hori-eth.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
                                         <h5 class="card-title text-dark d-block">橫向標誌 - 石楠綠 Heather Green - ETH</h5>
-                                        <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/eth/shirts/eth-full-horizontale.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -284,16 +256,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/eth/shirts/eth-logo-full.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/eth/eth-logo-full/m/m-red-ethlogo-full-eth.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/eth/eth-logo-full/m/m-red-ethlogo-full-eth.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">垂直標誌 - 紅色 Red - ETH</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">垂直標誌 - 紅色 Red - ETH</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/eth/shirts/eth-logo-full.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -304,15 +272,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/eth/shirts/eth-logo.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/eth/eth-logo/m/m-choco-ethlogo-eth.jpg" alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/eth/eth-logo/m/m-choco-ethlogo-eth.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">商標 - 棗紅色 Chocolate - ETH</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">商標 - 棗紅色 Chocolate - ETH</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/eth/shirts/eth-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -323,16 +288,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/ada/shirts/ada-vertical.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/ada/ada-logo-staked/m/m-orange-adalogostake.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/ada/ada-logo-staked/m/m-orange-adalogostake.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">垂直標誌 - 橘色 Orange - ADA</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">垂直標誌 - 橘色 Orange - ADA</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/ada/shirts/ada-vertical.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -343,16 +304,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/ada/shirts/ada-horizontal.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/ada/ada-logo-text/m/m-lightblue-adalogotext.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/ada/ada-logo-text/m/m-lightblue-adalogotext.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">橫向標誌 - 浅蓝色 Lightblue - ADA</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">橫向標誌 - 浅蓝色 Lightblue - ADA</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/ada/shirts/ada-horizontal.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -363,15 +320,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/ada/shirts/ada-logo.html">
-                                    <img class="card-img" src="/assets/images/shirts/ada/ada-logo/m/m-daisy-adalogo.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/ada/ada-logo/m/m-daisy-adalogo.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">商標 - 雛菊色 Daisy - ADA</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">商標 - 雛菊色 Daisy - ADA</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/ada/shirts/ada-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -382,16 +336,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/xrp/shirts/xrp-vertical.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/xrp/xrp-logo-text/m/m-sand-xrplogotext-xrp.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo-text/m/m-sand-xrplogotext-xrp.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">垂直標誌 - 卡其色 Sand - XRP</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">垂直標誌 - 卡其色 Sand - XRP</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/xrp/shirts/xrp-vertical.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -402,15 +352,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/xrp/shirts/xrp-logo.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/xrp/xrp-logo/m/m-azalea-xrplogo-xrp.jpg" alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo/m/m-azalea-xrplogo-xrp.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">商標 - 蜜桃紅 Azalea - XRP</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">商標 - 蜜桃紅 Azalea - XRP</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/xrp/shirts/xrp-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -421,15 +368,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/xrp/shirts/xrp-logo.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/xrp/xrp-text/m/m-sport-xrptext-xrp.jpg" alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/xrp/xrp-text/m/m-sport-xrptext-xrp.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">橫向標誌 - RS運動灰 Rs Sport - XRP </h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">橫向標誌 - RS運動灰 Rs Sport - XRP </h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/xrp/shirts/xrp-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -440,16 +384,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-logo.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-circle/m/m-irish-green-doge-circle.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-circle/m/m-irish-green-doge-circle.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">商標 - 愛爾蘭綠 Irish Green - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">商標 - 愛爾蘭綠 Irish Green - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -460,16 +400,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-circuit.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-circuit/m/m-carolina-dogecircuit.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-circuit/m/m-carolina-dogecircuit.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">電路 - 卡羅萊納藍 Carolina - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">電路 - 卡羅萊納藍 Carolina - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-circuit.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -480,16 +416,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-face.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-face/m/m-orange-doge-face.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-face/m/m-orange-doge-face.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">柴犬 - 橘色 Orange - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">柴犬 - 橘色 Orange - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-face.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -500,16 +432,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-minning.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-mining/m/m-red-mining-2.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-mining/m/m-red-mining-2.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">礦業 - 紅色 Red - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">礦業 - 紅色 Red - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-minning.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -520,16 +448,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-moon.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-moon/m/m-dark-heather-doge-moon.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-moon/m/m-dark-heather-doge-moon.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">月亮 - 深灰色 Heather - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">月亮 - 深灰色 Heather - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-moon.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -540,16 +464,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-texture.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-texture/m/m-white-doge-texture.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-texture/m/m-white-doge-texture.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">質地 - 白色 White - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">質地 - 白色 White - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-texture.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -562,16 +482,12 @@
                         <div class="item">
                             <div class="card product-image">
                                 <a href="/pages/collections/doge/shirts/doge-wagon.html">
-                                    <img class="card-img"
-                                        src="/assets/images/shirts/doge/doge-wagon/m/m-azalea-doge-mining-1.jpg"
-                                        alt="Image">
+                                    <img class="card-img" src="/assets/images/shirts/doge/doge-wagon/m/m-azalea-doge-mining-1.jpg" alt="Image">
                                 </a>
                                 <div class="card-img-overlay">
                                     <div class="hero-card-content">
-                                        <h5 class="card-title text-dark d-block">採礦車 - 蜜桃紅 Azalea - DOGE</h5> <span
-                                            class="item-sex d-inline-block">中性T恤 & 女T恤</span><span
-                                            class="item-price d-inline-block"> <small><del>$388</del></small>
-                                            $338</span>
+                                        <h5 class="card-title text-dark d-block">採礦車 - 蜜桃紅 Azalea - DOGE</h5> <span class="item-sex d-inline-block">中性T恤 & 女T恤</span><span class="item-price d-inline-block"> <small><del>$548</del></small>
+                                            $498</span>
                                         <div><a href="/pages/collections/doge/shirts/doge-wagon.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                                 立即購買
                                                 <span class="bi bi-arrow-right"></span></a></div>
@@ -597,8 +513,7 @@
                     <div class="row">
                         <div class="col">
                             <a href="/pages/collections/btc/shirts/btc-zebra.html" class="card card-scale card-equal equal-125">
-                                <span class="image image1"
-                                    style="background-image: url(/assets/images/f-btc-stripped.jpg);"></span>
+                                <span class="image image1" style="background-image: url(/assets/images/f-btc-stripped.jpg);"></span>
                                 <div class="card-footer"><span class="btn btn-lg btn-white btn-action">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></span>
@@ -611,8 +526,7 @@
                     <div class="row">
                         <div class="col">
                             <a href="/pages/collections/btc/shirts/btc-logo.html" class="card card-scale card-equal equal-125">
-                                <span class="image image2"
-                                    style="background-image: url(/assets/images/home-btc-male-model-crypto-tshirt-taiwan.jpg);"></span>
+                                <span class="image image2" style="background-image: url(/assets/images/home-btc-male-model-crypto-tshirt-taiwan.jpg);"></span>
                                 <div class="card-footer"><span class="btn btn-lg btn-white btn-action">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></span>
@@ -630,13 +544,10 @@
                                         <p>讓我們社交...</p>
                                     </div>
                                 </div>
-                                
-                                    <div class="fb-like" data-href="https://taiwan-crypto-tshirts.tw"
-                                        data-width="" data-layout="button" data-action="like" data-size="large"
-                                        data-share="true"></div>
-                                    <a class="position-relative d-inline-block" style="top: -3px;" href="https://www.instagram.com/taiwan.crypto.tshirts/" target="_blank"><img
-                                                src="/assets/images/instagram-button.png" alt="Instagram"></a>
-                                
+
+                                <div class="fb-like" data-href="https://taiwan-crypto-tshirts.tw" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+                                <a class="position-relative d-inline-block" style="top: -3px;" href="https://www.instagram.com/taiwan.crypto.tshirts/" target="_blank"><img src="/assets/images/instagram-button.png" alt="Instagram"></a>
+
                             </div>
                         </div>
                     </div>
@@ -656,15 +567,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-logo-text.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/btc/btc-logo-full/m/m-black-btclogo-full-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo-full/m/m-black-btclogo-full-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">Full Logo - 黑色 Black - BTC</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">Full Logo - 黑色 Black - BTC</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-logo-text.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -679,9 +587,8 @@
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">EVO - 黑色 Black - BTC</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">EVO - 黑色 Black - BTC</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-evo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -692,14 +599,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-zebra.html">
-                            <img class="card-img" src="/assets/images/shirts/btc/stripped/m/m-heather-stripped-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/stripped/m/m-heather-stripped-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">Zebra - 深灰色 Heather - BTC</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">Zebra - 深灰色 Heather - BTC</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-zebra.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -710,15 +615,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/eth/shirts/eth-full-horizontale.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/eth/eth-full-horizontal/m/m-sport-ethlogo-full-hori-eth.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/eth/eth-full-horizontal/m/m-sport-ethlogo-full-hori-eth.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - RS運動灰 Sport - ETH</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - RS運動灰 Sport - ETH</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/eth/shirts/eth-full-horizontale.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -729,14 +631,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/ada/shirts/ada-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo/l/l-sport-adalogo.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo/l/l-sport-adalogo.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - RS運動灰 Sport - ADA</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - RS運動灰 Sport - ADA</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/ada/shirts/ada-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -747,14 +647,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/doge/shirts/doge-minning.html">
-                            <img class="card-img" src="/assets/images/shirts/doge/doge-mining/m/m-white-doge-mining-2.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/doge/doge-mining/m/m-white-doge-mining-2.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">礦業 - 白色 White - DOGE</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">礦業 - 白色 White - DOGE</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-minning.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -765,15 +663,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/eth/shirts/eth-logo-full.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/eth/eth-logo-full/l/l-white-ethlogo-full-eth.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/eth/eth-logo-full/l/l-white-ethlogo-full-eth.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">垂直標誌 - 白色 White - ETH</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">垂直標誌 - 白色 White - ETH</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/eth/shirts/eth-logo-full.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -784,14 +679,12 @@
                 <div class="col">
                     <div class="card product-image">
                         <a href="/pages/collections/eth/shirts/eth-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/eth/eth-logo/m/m-sand-ethlogo-eth.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/eth/eth-logo/m/m-sand-ethlogo-eth.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 卡其色 Sand - ETH</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 卡其色 Sand - ETH</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/eth/shirts/eth-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -802,14 +695,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo/m/m-maroon-btclogo-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo/m/m-maroon-btclogo-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 深咖啡色 Maroon - BTC</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 深咖啡色 Maroon - BTC</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -820,14 +711,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-horizontal.html">
-                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-text/m/m-choco-xrptext-xrp.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-text/m/m-choco-xrptext-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - 棗紅色 Chocolate - XRP</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - 棗紅色 Chocolate - XRP</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-horizontal.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -838,14 +727,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/doge/shirts/doge-moon.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/doge/doge-moon/m/m-red-doge-moon.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/doge/doge-moon/m/m-red-doge-moon.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">月亮 - 紅色 Red - DOGE</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">月亮 - 紅色 Red - DOGE</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-moon.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -856,14 +743,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-vertical.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/xrp/xrp-logo-text/l/l-red-xrplogotext-xrp.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo-text/l/l-red-xrplogotext-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">垂直標誌- 紅色 Red - XRP</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">垂直標誌- 紅色 Red - XRP</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-vertical.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -874,15 +759,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/doge/shirts/doge-logo.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/doge/doge-circle/m/m-orange-doge-circle.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/doge/doge-circle/m/m-orange-doge-circle.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">垂直標誌 - 橘色 Orange - DOGE</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">垂直標誌 - 橘色 Orange - DOGE</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -893,14 +775,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/ada/shirts/ada-horizontal.html">
-                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo-text/l/l-gold-adalogotext.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo-text/l/l-gold-adalogotext.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - 金色的 Gold - ADA</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - 金色的 Gold - ADA</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/ada/shirts/ada-horizontal.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -911,14 +791,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo/m/m-daisy-xrplogo-xrp.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo/m/m-daisy-xrplogo-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 雛菊色 Daisy - XRP</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 雛菊色 Daisy - XRP</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -929,14 +807,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/doge/shirts/doge-texture.html">
-                            <img class="card-img" src="/assets/images/shirts/doge/doge-texture/l/l-daisy-doge-texture.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/doge/doge-texture/l/l-daisy-doge-texture.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">質地 - 雛菊色 Daisy - DOGE</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">質地 - 雛菊色 Daisy - DOGE</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-texture.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -947,14 +823,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-logo.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/btc/btc-logo/m/m-heather-irish-btclogo-btc.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo/m/m-heather-irish-btclogo-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 石楠綠 Heather Green - BTC</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 石楠綠 Heather Green - BTC</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -965,14 +839,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/doge/shirts/doge-wagon.html">
-                            <img class="card-img" src="/assets/images/shirts/doge/doge-wagon/m/m-irish-green-mining-1.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/doge/doge-wagon/m/m-irish-green-mining-1.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">採礦車 - 愛爾蘭綠 Irish Green - DOGE</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">採礦車 - 愛爾蘭綠 Irish Green - DOGE</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-wagon.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -983,14 +855,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/ada/shirts/ada-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo/l/l-irish-adalogo.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo/l/l-irish-adalogo.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 愛爾蘭綠 Irish Green - ADA</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 愛爾蘭綠 Irish Green - ADA</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/ada/shirts/ada-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1001,14 +871,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-evo.html">
-                            <img class="card-img" src="/assets/images/shirts/btc/evo/l/military-l-evo-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/evo/l/military-l-evo-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">EVO- 軍綠色 Army Green - BTC</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">EVO- 軍綠色 Army Green - BTC</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-evo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1019,14 +887,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/ada/shirts/ada-horizontal.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/ada/ada-logo-text/m/m-forrest-adalogotext.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo-text/m/m-forrest-adalogotext.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - 森林綠 Forest - ADA</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - 森林綠 Forest - ADA</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/ada/shirts/ada-horizontal.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1041,9 +907,8 @@
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">柴犬 - 浅蓝色 Lightblue - DOGE</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">柴犬 - 浅蓝色 Lightblue - DOGE</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-face.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1054,14 +919,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-zebra.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/btc/stripped/l/l-lightblue-stripped-btc.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/stripped/l/l-lightblue-stripped-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">Zebra - 浅蓝色 Lightblue - BTC</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">Zebra - 浅蓝色 Lightblue - BTC</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-zebra.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1072,14 +935,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/eth/shirts/eth-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/eth/eth-logo/m/m-carolina-ethlogo-eth.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/eth/eth-logo/m/m-carolina-ethlogo-eth.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標- 卡羅萊納藍 Carolina - ETH</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標- 卡羅萊納藍 Carolina - ETH</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/eth/shirts/eth-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1090,14 +951,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo/m/m-sapphire-xrplogo-xrp.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo/m/m-sapphire-xrplogo-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 寶石藍 Sapphire - XRP</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 寶石藍 Sapphire - XRP</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1108,15 +967,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/doge/shirts/doge-circuit.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/doge/doge-circle/l/l-sapphire-doge-circle.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/doge/doge-circle/l/l-sapphire-doge-circle.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">電路 - 寶石藍 Sapphire - DOGE</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">電路 - 寶石藍 Sapphire - DOGE</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/doge/shirts/doge-circuit.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1127,15 +983,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/eth/shirts/eth-full-horizontale.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/eth/eth-full-horizontal/m/m-royal-ethlogo-full-hori-eth.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/eth/eth-full-horizontal/m/m-royal-ethlogo-full-hori-eth.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - 寶藍色 Royal - ETH</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - 寶藍色 Royal - ETH</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/eth/shirts/eth-full-horizontale.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1146,14 +999,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-zebra.html">
-                            <img class="card-img" src="/assets/images/shirts/btc/stripped/m/m-navy-stripped-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/stripped/m/m-navy-stripped-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">Zebra - 藏青色 Navy - BTC</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">Zebra - 藏青色 Navy - BTC</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-zebra.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1164,14 +1015,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-logo.html">
-                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo/l/l-navy-btclogo-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo/l/l-navy-btclogo-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 藏青色 Navy - BTC</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 藏青色 Navy - BTC</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1182,14 +1031,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/ada/shirts/ada-logo.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/ada/ada-logo/m/m-heather-purple-adalogo.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/ada/ada-logo/m/m-heather-purple-adalogo.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">商標 - 紫色 Heather Purple - ADA</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">商標 - 紫色 Heather Purple - ADA</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/ada/shirts/ada-logo.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1200,15 +1047,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-logo-text.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/btc/btc-logo-full/l/l-purple-btclogo-full-btc.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo-full/l/l-purple-btclogo-full-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - 紫色 Purple - BTC</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - 紫色 Purple - BTC</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-logo-text.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1219,15 +1063,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-vertical.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/xrp/xrp-logo-text/l/l-lightpink-xrplogotext-xrp.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo-text/l/l-lightpink-xrplogotext-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">垂直標誌- 粉紅色 Pink - XRP</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">垂直標誌- 粉紅色 Pink - XRP</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-vertical.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1238,14 +1079,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-horizontal.html">
-                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-text/m/m-azalea-xrptext-xrp.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-text/m/m-azalea-xrptext-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">垂直標誌 - 蜜桃紅 Azalea - XRP</h5> <span
-                                    class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">垂直標誌 - 蜜桃紅 Azalea - XRP</h5> <span class="item-sex d-inline-block">中性T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-horizontal.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1256,15 +1095,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/xrp/shirts/xrp-vertical.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/xrp/xrp-logo-text/l/l-azalea-xrplogotext-xrp.jpg"
-                                alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/xrp/xrp-logo-text/l/l-azalea-xrplogotext-xrp.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">垂直標誌 - 蜜桃紅 Azalea - XRP</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">垂直標誌 - 蜜桃紅 Azalea - XRP</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/xrp/shirts/xrp-vertical.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1275,14 +1111,12 @@
                 <div class="col" style="display: none;">
                     <div class="card product-image">
                         <a href="/pages/collections/btc/shirts/btc-logo-text.html">
-                            <img class="card-img"
-                                src="/assets/images/shirts/btc/btc-logo-full/l/l-pink-btclogo-full-btc.jpg" alt="Image">
+                            <img class="card-img" src="/assets/images/shirts/btc/btc-logo-full/l/l-pink-btclogo-full-btc.jpg" alt="Image">
                         </a>
                         <div class="card-img-overlay">
                             <div class="hero-card-content">
-                                <h5 class="card-title fw-bold">橫向標誌 - 蜜桃紅 Peach Red - BTC</h5> <span
-                                    class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
-                                    <small><del>$388</del></small> $338</span>
+                                <h5 class="card-title fw-bold">橫向標誌 - 蜜桃紅 Peach Red - BTC</h5> <span class="item-sex d-inline-block">女T恤</span><span class="item-price d-inline-block">
+                                    <small><del>$548</del></small> $498</span>
                                 <div><a href="/pages/collections/btc/shirts/btc-logo-text.html" class="btn btn-sm btn-gradient btn-action d-inline-block">
                                         立即購買
                                         <span class="bi bi-arrow-right"></span></a></div>
@@ -1294,8 +1128,7 @@
             <div class="row">
                 <div class="col text-center">
                     <button id="loadMore" type="button" class="btn btn-outline-warning mx-2">查看更多</button>
-                    <button id="showLess" type="button" class="btn btn-outline-warning mx-2"
-                        style="display: none;">少見</button>
+                    <button id="showLess" type="button" class="btn btn-outline-warning mx-2" style="display: none;">少見</button>
 
                 </div>
             </div>
@@ -1308,24 +1141,19 @@
                     <h6 class="text-center text-capitalize">我們提供的品牌</h6>
                     <div class="owl-coins owl-carousel owl-theme">
                         <div class="item">
-                            <a href="/pages/collections/btc/btc-collection.html" title="立即購物"><img
-                                    src="/assets/images/crypto-logos/bitcoin-btc-logo.svg" alt="bitcoin-btc-商標"></a>
+                            <a href="/pages/collections/btc/btc-collection.html" title="立即購物"><img src="/assets/images/crypto-logos/bitcoin-btc-logo.svg" alt="bitcoin-btc-商標"></a>
                         </div>
                         <div class="item">
-                            <a href="/pages/collections/eth/eth-collection.html" title="立即購物"><img
-                                    src="/assets/images/crypto-logos/ethereum-eth-logo.svg" alt="ethereum-eth-商標"></a>
+                            <a href="/pages/collections/eth/eth-collection.html" title="立即購物"><img src="/assets/images/crypto-logos/ethereum-eth-logo.svg" alt="ethereum-eth-商標"></a>
                         </div>
                         <div class="item">
-                            <a href="/pages/collections/xrp/xrp-collection.html" title="立即購物"><img
-                                    src="/assets/images/crypto-logos/xrp-xrp-logo.svg" alt="xrp-xrp-商標"></a>
+                            <a href="/pages/collections/xrp/xrp-collection.html" title="立即購物"><img src="/assets/images/crypto-logos/xrp-xrp-logo.svg" alt="xrp-xrp-商標"></a>
                         </div>
                         <div class="item">
-                            <a href="/pages/collections/ada/ada-collection.html" title="立即購物"><img
-                                    src="/assets/images/crypto-logos/cardano-ada-logo.svg" alt="Cordano-ada-商標"></a>
+                            <a href="/pages/collections/ada/ada-collection.html" title="立即購物"><img src="/assets/images/crypto-logos/cardano-ada-logo.svg" alt="Cordano-ada-商標"></a>
                         </div>
                         <div class="item">
-                            <a href="/pages/collections/doge/doge-collection.html" title="立即購物"><img
-                                    src="/assets/images/crypto-logos/dogecoin-doge-logo.svg" alt="Dogecoin-DOGE-商標"></a>
+                            <a href="/pages/collections/doge/doge-collection.html" title="立即購物"><img src="/assets/images/crypto-logos/dogecoin-doge-logo.svg" alt="Dogecoin-DOGE-商標"></a>
                         </div>
                     </div>
                 </div>
@@ -1373,22 +1201,20 @@
                             <!-- Testimonial Card -->
                             <div class="testimonials__card">
                                 <p class="lh-lg">
-                                    <i class="bi bi-chat-right-quote"></i> 我喜歡加密貨幣，更喜歡獨特的原創設計，這個線上平台讓我可以輕鬆的選擇喜愛的設計好秀出我對加密貨幣的喜愛。另外，7-11貨到付款的交易及取貨方式讓客人更加安心 !!
-                                    所以，我非常推薦 Taiwan Crypto T -Shirts !!!
+                                    <i class="bi bi-chat-right-quote"></i> 我喜歡加密貨幣，更喜歡獨特的原創設計，這個線上平台讓我可以輕鬆的選擇喜愛的設計好秀出我對加密貨幣的喜愛。另外，7-11貨到付款的交易及取貨方式讓客人更加安心 !! 所以，我非常推薦 Taiwan Crypto T -Shirts !!!
                                     <i class="bi bi-chat-left-quote"></i>
-                                <div class="rating p-1">
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
+                                    <div class="rating p-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
                                 </p>
                             </div>
                             <!-- Testimonial Picture -->
                             <div class="testimonials__picture">
-                                <img src="/assets/images/testimonials/client-1.jpg" alt="client-1 picture"
-                                    class="img-fluid rounded-circle">
+                                <img src="/assets/images/testimonials/client-1.jpg" alt="client-1 picture" class="img-fluid rounded-circle">
                             </div>
                             <!-- Testimonial Name & Role -->
                             <div class="testimonials__name">
@@ -1397,7 +1223,7 @@
                             </div>
                         </div>
                         <!-- Carousel Item 2 -->
-                        
+
                     </div>
                 </div>
                 <!-- <div class="text-center owl-theme text-white">
@@ -1407,12 +1233,12 @@
                         <button type="button" role="presentation" class="owl-next"><span aria-label="Next"
                                 data-bs-target="#carouselExampleCaptions" data-bs-slide="next">›</span></button>
                     </div> -->
-                    <!-- <button class="btn btn-outline-light " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <!-- <button class="btn btn-outline-light " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 </button>
                     <button class="btn btn-outline-light" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                 </button> -->
-                </div>
             </div>
+        </div>
         </div>
         </div>
     </section>
@@ -1422,8 +1248,7 @@
                 <div class="col-12 col-md-6 mx-auto pb-4">
                     <h5 class="text-capitalize fw-bold">Taiwan Crypto t-Shirts</h5>
                     <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-                    <p class="lh-lg">Taiwan Crypto t-Shirts 是一個極客和一個藝術家的故事。 我們遇到了教小孩子英語。 Covid關閉了學校。 我們決定在線提供很酷的原創加密 T恤。
-                        我們希望你找到你喜歡的那個 :)</p>
+                    <p class="lh-lg">Taiwan Crypto t-Shirts 是一個極客和一個藝術家的故事。 我們遇到了教小孩子英語。 Covid關閉了學校。 我們決定在線提供很酷的原創加密 T恤。 我們希望你找到你喜歡的那個 :)</p>
                     <a href="/pages/about/about.html" class="btn btn-outline-warning">了解更多</a>
                 </div>
                 <div class="col-md-4">
@@ -1454,12 +1279,9 @@
                 <div class="row text-center text-white">
                     <div class="col-12">
                         <div class="footer-bottom__copyright d-block d-md-inline">All Rights Reserved &copy; 2021 一些圖片來自
-                            <a
-                                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868496">Pixabay</a>
+                            <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868496">Pixabay</a>
                             <div class="d-none d-md-inline"> | </div>
-                            <div class="d-block d-md-inline"><a href="/pages/legal/terms.html"
-                                    class="link-warning small">隱私權政策</a> | <a href="/pages/legal/policies.html"
-                                    class="link-warning small">使用條款</a></div>
+                            <div class="d-block d-md-inline"><a href="/pages/legal/terms.html" class="link-warning small">隱私權政策</a> | <a href="/pages/legal/policies.html" class="link-warning small">使用條款</a></div>
                         </div>
                     </div>
                 </div>
@@ -1469,9 +1291,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
